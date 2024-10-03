@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#arguments
+num1=$1
+num2=$2
+
+#arithmetic calculations:
+
+echo "Addition of $1 + $2 = $(echo "$1 + $2" | bc)"
+echo "Subtraction of $1 - $2 = $(echo "$1 - $2" | bc)"
+echo "Multiplication of $1 * $2 = $(echo "$1 * $2" | bc)"
+echo "Division of $1 / $2 = $(echo "scale=2; $1 / $2" | bc)"
+

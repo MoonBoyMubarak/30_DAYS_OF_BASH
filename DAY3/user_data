@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Abeg! Enter your name Oremi : "
+read name 
+echo "So, how old are you ? Enter your age: "
+read age   
+
+echo "Dear $name, how are you doing today ? So, at $age you still dey smoke ikgbo? Some people no dey do oooo!"
+echo "Abeg, don't forget to take care of yourself, you're still young and strong"
